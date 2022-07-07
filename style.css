@@ -1,8 +1,8 @@
 .sec1{
-    background-image: url(images/donation9.jpg);
+    background-image: url(images/donation3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 700px;
 }
 
 .header{
@@ -12,8 +12,13 @@
     color: white;
     font-weight: bold;
     font-size: 25px;
-    padding: 86px;
+    padding: 171px;
 
+}
+.header-1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.5;
 }
 .para2{
     margin-bottom: 40px;
@@ -23,7 +28,7 @@ a{
     background-color: rgb(224, 14, 14);
     padding: 10px 40px;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
    
 }
@@ -34,6 +39,11 @@ a{
     margin-top: 200px;
     text-align: center;
     font-size: 30px;
+    font-family:'Roboto', sans-serif;;
+}
+.para4{
+    font-size: 25px;
+    color: grey;
 }
 .donate-amount{
     display:flex;
@@ -83,6 +93,48 @@ a{
 .color3{
     background-color: rgb(247, 208, 137);
 }
+.para3{
+    text-align: justify;
+}
+
+
+
+.donate-goal-flex{
+    display:flex;
+}
+.donate-goal-div-1{
+    background-color: brown;
+    margin-left: 280px;
+    padding: 30px;
+    font-size: 20px;
+}
+.donate-goal-div-2{
+    background-color: blueviolet;
+    margin-left: 300px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+
+.form-cls{
+    background-color: rgb(230, 198, 140);
+    height: 220px;
+    width: 70%;
+    margin-left: 200px;
+}
+.input-cls-2{
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 90px;
+    padding: 10px;
+}
+.submit-btn{
+    color: white;
+    background-color: rgb(245, 75, 103);
+    padding: 12px 90px;
+    border: none;
+}
 
 
 
@@ -108,21 +160,3 @@ a{
 }
 
 
-.form-cls{
-    background-color: rgb(230, 198, 140);
-    height: 220px;
-    width: 70%;
-    margin-left: 200px;
-}
-.input-cls-2{
-    width: 300px;
-    margin-left: 200px;
-    margin-top: 90px;
-    padding: 10px;
-}
-.submit-btn{
-    color: white;
-    background-color: rgb(245, 75, 103);
-    padding: 12px 90px;
-    border: none;
-}
